@@ -7,11 +7,13 @@
 
 int main(void)
 {
-	int alph=97; 
-	for (alph; alph<123; alph++)
-		putchar(alph);
-	printf("\n");
+	char ch;
 
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 	return (0);
 }
 
