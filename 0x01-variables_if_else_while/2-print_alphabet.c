@@ -9,7 +9,7 @@ int main(void)
 {
 	int alph=97; 
 	for (alph; alph<123; alph++)
-		printf("%c", alph);
+		putchar(alph);
 	printf("\n");
 
 	return (0);
