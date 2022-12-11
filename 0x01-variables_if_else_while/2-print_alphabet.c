@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * * Prorgram to print lowercase alphabet
- * * Return char alphabet
- * */
+ * Prorgram to print lowercase alphabet
+ * Return char alphabet
+ */
 
 int main(void)
 {
