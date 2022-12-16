@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -12,20 +13,4 @@ int _isupper(int c)
     return(1);
   }
   return(0);
-}
-
-/**
- * main - prints the 0-9 in single digit,
- * followed by a new line
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	char c;
-
-  c = 'A';
-  printf("%c: %d\n", c, _isupper(c));
-  c = 'a';
-  printf("%c: %d\n", c, _isupper(c));
-  return (0);
 }
