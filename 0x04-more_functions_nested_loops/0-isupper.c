@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: 1 for Caps 0 for Small
  */
-int _isupper(char c)
+int _isupper(int c)
 {
   if(c <= 90 && c >= 60)
   {
